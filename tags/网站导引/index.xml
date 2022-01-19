@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>网站导引 on yhwu-is&#39;s personal home page</title>
+    <link>https://yhwu-is.github.io/tags/%E7%BD%91%E7%AB%99%E5%AF%BC%E5%BC%95/</link>
+    <description>Recent content in 网站导引 on yhwu-is&#39;s personal home page</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Wed, 19 Jan 2022 22:19:43 +0800</lastBuildDate><atom:link href="https://yhwu-is.github.io/tags/%E7%BD%91%E7%AB%99%E5%AF%BC%E5%BC%95/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Welcome to yhwu-is&#39;s Home Page</title>
+      <link>https://yhwu-is.github.io/post/welcome_to_yhwu-iss_home_page/</link>
+      <pubDate>Wed, 19 Jan 2022 22:19:43 +0800</pubDate>
+      
+      <guid>https://yhwu-is.github.io/post/welcome_to_yhwu-iss_home_page/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
