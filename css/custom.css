@@ -1,0 +1,115 @@
+:root {
+  --sidebar-bg: #f3f4f6;
+  --sidebar-text: #1f2937;
+  --body-text: #111827;
+}
+
+body {
+  color: var(--body-text) !important;
+  font-family: "Inter", "Noto Sans", "PingFang SC", "Microsoft YaHei", sans-serif !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Source Serif 4", "Noto Serif", "Songti SC", serif !important;
+}
+
+#sidebar {
+  background-color: var(--sidebar-bg) !important;
+  background-image: none !important;
+}
+
+#sidebar .sidebar-container {
+  background-color: var(--sidebar-bg) !important;
+  background-image: none !important;
+}
+
+#sidebar .sidebar-profile {
+  background: transparent !important;
+}
+
+#sidebar .sidebar-profile-name,
+#sidebar .sidebar-profile-bio,
+#sidebar .sidebar-button-desc,
+#sidebar .sidebar-button-link {
+  color: var(--sidebar-text) !important;
+}
+
+#sidebar .sidebar-button-icon {
+  color: var(--sidebar-text) !important;
+}
+
+#sidebar .sidebar-button-link:hover {
+  background: rgba(0, 0, 0, 0.05) !important;
+}
+
+#main .postShorten-header,
+#main .postShorten-excerpt,
+#main .postShorten-title,
+#main .postShorten-meta {
+  text-align: left !important;
+}
+
+#main .postShorten-header,
+#main .postShorten-excerpt {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+#main .postShorten-title {
+  margin-left: 0 !important;
+}
+
+#main .postShorten {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+#main .postShorten-wrap {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+#main .postShorten.postShorten--thumbnailimg-left .postShorten-wrap,
+#main .postShorten.postShorten--thumbnailimg-right .postShorten-wrap {
+  float: none !important;
+  width: 100% !important;
+}
+
+#main .postShorten-excerpt ul,
+#main .postShorten-excerpt ol {
+  padding-left: 1.25rem !important;
+  margin-left: 0 !important;
+  list-style-position: outside !important;
+}
+
+#main .postShorten-excerpt ul li,
+#main .postShorten-excerpt ol li {
+  margin-left: 0 !important;
+}
+
+#main .postShorten-excerpt {
+  overflow: visible !important;
+}
+
+#main .research-quote {
+  margin: 0 0 0.9rem 0;
+  padding: 0.75rem 1rem;
+  border-left: 4px solid #94a3b8;
+  background: rgba(148, 163, 184, 0.12);
+  color: #1f2937;
+  font-style: italic;
+  border-radius: 6px;
+}
+
+#main .research-quote-author {
+  display: block;
+  margin-top: 0.35rem;
+  font-style: normal;
+  font-weight: 600;
+  color: #475569;
+}
