@@ -9,7 +9,7 @@
   "author": {
     "@type": "Person",
     "name": "Yihang Wu (吴一航)",
-    "image": "https://avatars.githubusercontent.com/u/80104150?s=400\u0026u=468c38dda6e66a4e4ed21c1edde3c2654b04bf26\u0026v=4"
+    "image": "https://yhwu-is.github.io/images/photo1-web.jpg"
   },
   "name": "Yihang Wu (吴一航)",
   "description": "Academic homepage of Yihang Wu. Research, publications, teaching, and contact.",
@@ -35,8 +35,8 @@
     <meta name="twitter:description" content="Academic homepage of Yihang Wu. Research, publications, teaching, and contact.">
     <meta property="og:locale" content="en_US">
     <meta name="twitter:card" content="summary">
-    <meta property="og:image" content="https://avatars.githubusercontent.com/u/80104150?s=400&u=468c38dda6e66a4e4ed21c1edde3c2654b04bf26&v=4">
-    <meta property="twitter:image" content="https://avatars.githubusercontent.com/u/80104150?s=400&u=468c38dda6e66a4e4ed21c1edde3c2654b04bf26&v=4">
+    <meta property="og:image" content="https://yhwu-is.github.io/images/photo1-web.jpg">
+    <meta property="twitter:image" content="https://yhwu-is.github.io/images/photo1-web.jpg">
     <title>Yihang Wu</title>
     <link rel="icon" href="https://yhwu-is.github.io/favicon.png">
     <link rel="canonical" href="https://yhwu-is.github.io/">
@@ -47,7 +47,7 @@
     <link rel="stylesheet" href="/css/style-h6ccsoet3mzkbb0wngshlfbaweimexgqcxj0h5hu4h82olsdzz6wmqdkajm.min.css">
     <link rel="stylesheet" href="/css/custom.css">
   </head>
-  <body>
+  <body class="homepage">
     <div id="blog">
       <header id="header" data-behavior="1">
         <i id="btn-open-sidebar" class="fa fa-lg fa-bars"></i>
@@ -58,9 +58,11 @@
       <nav id="sidebar" data-behavior="1">
         <div class="sidebar-container">
           <div class="sidebar-profile">
-            <a href="/#about-section" aria-label="Read more about the author">
-              <img class="sidebar-profile-picture" src="https://avatars.githubusercontent.com/u/80104150?s=400&amp;u=468c38dda6e66a4e4ed21c1edde3c2654b04bf26&amp;v=4" alt="Author portrait">
+            <a class="portrait-frame" href="/#about-section" aria-label="Read more about the author">
+              <img id="homepage-portrait" class="sidebar-profile-picture" data-photo="1" src="/images/photo1-web.jpg" alt="Portrait of Yihang Wu" width="200" height="250" fetchpriority="high">
             </a>
+            <script src="/js/homepage-portrait.js"></script>
+            <p class="photo-credit">Photographed by <a href="https://www.linkedin.com/in/runzhi-li/" target="_blank" rel="noopener noreferrer" aria-label="Runzhi Li on LinkedIn">Runzhi Li</a></p>
             <h4 class="sidebar-profile-name">Yihang Wu</h4>
             <h5 class="sidebar-profile-bio">MS Student<br>College of Computer Science and Technology<br>Zhejiang University</h5>
           </div>
@@ -128,7 +130,7 @@
                 <h1 class="postShorten-title">About Me</h1>
               </div>
               <div class="postShorten-excerpt">
-                <p>I am Yihang Wu (吴一航 in Chinese), a second-year MS student at the College of Computer Science and Technology, Zhejiang University. Prior to that, I graduated from Zhejiang University (Turing Honors Class) in 2024.</p>
+                <p>I am Yihang Wu (吴一航 in Chinese), a third-year MS student at the College of Computer Science and Technology, Zhejiang University. Prior to that, I graduated from Zhejiang University (Turing Honors Class) in 2024.</p>
               </div>
             </div>
           </article>
@@ -219,11 +221,12 @@
         </section>
         <footer id="footer" class="main-content-wrap">
           <span class="copyrights">&copy; 2026 Yihang Wu. All Rights Reserved</span>
+          <p class="photo-credit photo-credit-footer">Photographed by <a href="https://www.linkedin.com/in/runzhi-li/" target="_blank" rel="noopener noreferrer" aria-label="Runzhi Li on LinkedIn">Runzhi Li</a></p>
         </footer>
       </div>
     </div>
     <div id="cover" style="background-image:url('https://yhwu-is.github.io/images/cover.jpg');"></div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="https://yhwu-is.github.io/js/script-yqzy9wdlzix4lbbwdnzvwx3egsne77earqmn73v9uno8aupuph8wfguccut.min.js"></script>
+    <script src="/js/script-yqzy9wdlzix4lbbwdnzvwx3egsne77earqmn73v9uno8aupuph8wfguccut.min.js"></script>
   </body>
 </html>

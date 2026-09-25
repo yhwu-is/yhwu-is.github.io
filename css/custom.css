@@ -32,6 +32,94 @@ h6 {
   background: transparent !important;
 }
 
+.homepage #sidebar .sidebar-profile {
+  height: auto;
+}
+
+.homepage #sidebar .portrait-frame {
+  display: block;
+  width: 200px;
+  height: 250px;
+  margin: 0 auto;
+  overflow: hidden;
+  border-radius: 12px;
+  box-shadow: 0 3px 14px rgba(17, 24, 39, 0.1);
+}
+
+.homepage #sidebar .sidebar-profile .sidebar-profile-picture {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  border-radius: 0;
+  object-fit: cover;
+}
+
+.homepage #homepage-portrait[data-photo="1"] {
+  object-position: 60% center;
+  transform: scale(1.45);
+  transform-origin: 60% 65%;
+}
+
+.homepage #homepage-portrait[data-photo="2"] {
+  object-position: center 65%;
+  transform: scale(2);
+  transform-origin: 48% 60%;
+}
+
+.homepage #homepage-portrait[data-photo="3"] {
+  object-position: center 60%;
+  transform: scale(1.35);
+  transform-origin: 52% 80%;
+}
+
+.homepage .photo-credit {
+  margin: 9px 0 16px;
+  color: #636b78;
+  font-size: 11px;
+  line-height: 1.6;
+  font-weight: 400;
+}
+
+.homepage .photo-credit a {
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-color: #a4aab3;
+  text-underline-offset: 3px;
+}
+
+.homepage .photo-credit a:hover,
+.homepage .photo-credit a:focus-visible {
+  color: #1f2937;
+  text-decoration-color: currentColor;
+}
+
+.homepage .photo-credit-footer {
+  display: none;
+}
+
+@media (max-width: 1279px) {
+  .homepage #sidebar .portrait-frame {
+    width: 160px;
+    height: 200px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .homepage #sidebar .portrait-frame {
+    width: 56px;
+    height: 70px;
+    border-radius: 7px;
+  }
+
+  .homepage #sidebar .photo-credit {
+    display: none;
+  }
+
+  .homepage .photo-credit-footer {
+    display: block;
+  }
+}
+
 #sidebar .sidebar-profile-name,
 #sidebar .sidebar-profile-bio,
 #sidebar .sidebar-button-desc,
