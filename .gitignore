@@ -1,3 +1,6 @@
 .DS_Store
 .history
 site/
+/images/photo[0-9]*
+!/images/photo[0-9]*-web.jpg
+/images/originals/
